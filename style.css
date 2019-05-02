@@ -3,11 +3,6 @@
   src: url('Assassin$.ttf');
 }
 
-@font-face{
-  font-family: Gobold Blocky I;
-  src: url('Gobold Blocky Italic.otf');
-}
-
 #bgmenu{ /*fundo do menu principal e tamanho*/
   background-image: url(imageindex2.jpg);
   background-size: 100%;
@@ -71,7 +66,6 @@ ul{ /*removendo pontos das listagens*/
 #menuh2{
   animation-duration: 2s;
   animation-name: slidein;
-  font-family: Gobold Blocky I;
   color: orange;
   font-size: 60px;
   text-shadow: -0.06em 0 0 #000, 0.06em 0 0 #000;
@@ -80,7 +74,6 @@ ul{ /*removendo pontos das listagens*/
 .listaMenu{ /*estilizando e adicionando animações para a lista*/
   animation-duration: 2s;
   animation-name: fadein;
-  font-family: Gobold Blocky I;
   font-size: 50px;
   text-align: left;
   text-shadow: #000 10px 10px 10px;
@@ -98,7 +91,6 @@ ul{ /*removendo pontos das listagens*/
 #sobreh2{
   animation-duration: 2s;
   animation-name: slidein;
-  font-family: Gobold Blocky I;
   color: orange;
   font-size: 45px;
   text-shadow: -0.06em 0 0 #000, 0.06em 0 0 #000;
@@ -107,7 +99,6 @@ ul{ /*removendo pontos das listagens*/
 #sobreh3{
   animation-duration: 2s;
   animation-name: fadein;
-  font-family: Gobold Blocky I;
   font-size: 28px;
   color: black;
   font-size: 30px;
@@ -136,7 +127,6 @@ ul{ /*removendo pontos das listagens*/
 #ajudah2{
   animation-duration: 2s;
   animation-name: slidein;
-  font-family: Gobold Blocky I;
   color: orange;
   font-size: 45px;
   text-shadow: -0.06em 0 0 #000, 0.06em 0 0 #000;
@@ -145,7 +135,6 @@ ul{ /*removendo pontos das listagens*/
 #ajudah3{
   animation-duration: 2s;
   animation-name: fadein;
-  font-family: Gobold Blocky I;
   font-size: 35px;
   color: red;
   text-align: left;
@@ -179,7 +168,6 @@ ul{ /*removendo pontos das listagens*/
 #jogoh2{
   animation-duration: 2s;
   animation-name: slidein;
-  font-family: Gobold Blocky I;
   color: orange;
   font-size: 45px;
   text-shadow: -0.06em 0 0 #000, 0.06em 0 0 #000;
