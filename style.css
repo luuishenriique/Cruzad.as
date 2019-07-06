@@ -1,0 +1,271 @@
+@font-face{
+  font-family: Assassins;
+  src: url('Assassin$.ttf');
+}
+
+#bgmenu{ /*fundo do menu principal e tamanho*/
+  background-image: url(imageindex2.jpg);
+  background-size: 100%;
+}
+
+#bgsobre{
+  background-image: url(ajuda.jpg);
+  background-size: 100%;
+}
+
+#bgajuda{
+  background-image: url(ajuda.jpg);
+  background-size: 100%;
+}
+
+#bgmododejogo{
+  background-image: url(imageindex2.jpg);
+  background-size: 100%;
+}
+
+#bgfrutas{
+  background-image: url(game1.jpg);
+  background-size: 100%;
+}
+
+#bggeral{
+  background-image: url(game1.jpg);
+  background-size: 100%;
+}
+
+#bghistoria{
+  background-image: url(game1.jpg);
+  background-size: 100%;
+}
+
+a{ /*removendo linhas sublinhadas dos links e dando cores*/
+  text-decoration: none;
+}
+
+a:link{
+  color: green;
+}
+
+a:visited{
+  color: green;
+}
+
+ul{ /*removendo pontos das listagens*/
+  list-style-type: none;
+}
+
+#menuh1{ /*estilizando e adicionando animações para os títulos*/
+    animation-duration: 1s;
+    animation-name: slidein;
+    font-family: Assassins;
+    color: orangered;
+    font-size: 120px;
+    text-shadow: -0.06em 0 0 #000, 0.06em 0 0 #000;
+}
+
+#menuh2{
+  animation-duration: 2s;
+  animation-name: slidein;
+  color: orange;
+  font-size: 60px;
+  text-shadow: -0.06em 0 0 #000, 0.06em 0 0 #000;
+}
+
+.listaMenu{ /*estilizando e adicionando animações para a lista*/
+  animation-duration: 2s;
+  animation-name: fadein;
+  font-size: 50px;
+  text-align: left;
+  text-shadow: #000 10px 10px 10px;
+}
+
+#sobreh1{
+  animation-duration: 1s;
+  animation-name: slidein;
+  font-family: Assassins;
+  color: orangered;
+  font-size: 75px;
+  text-shadow: -0.06em 0 0 #000, 0.06em 0 0 #000;
+}
+
+#sobreh2{
+  animation-duration: 2s;
+  animation-name: slidein;
+  color: orange;
+  font-size: 45px;
+  text-shadow: -0.06em 0 0 #000, 0.06em 0 0 #000;
+}
+
+#sobreh3{
+  animation-duration: 2s;
+  animation-name: fadein;
+  font-size: 28px;
+  color: black;
+  font-size: 30px;
+  text-align: left;
+  text-shadow: #000 10px 10px 10px;
+}
+
+.linksAjuda{
+  animation-duration: 1s;
+  animation-name: slidein;
+  font-family: Assassins;
+  color: orangered;
+  font-size: 35px;
+  text-shadow: -0.06em 0 0 #000, 0.06em 0 0 #000;
+}
+
+#ajudah1{
+  animation-duration: 1s;
+  animation-name: slidein;
+  font-family: Assassins;
+  color: orangered;
+  font-size: 75px;
+  text-shadow: -0.06em 0 0 #000, 0.06em 0 0 #000;
+}
+
+#ajudah2{
+  animation-duration: 2s;
+  animation-name: slidein;
+  color: orange;
+  font-size: 45px;
+  text-shadow: -0.06em 0 0 #000, 0.06em 0 0 #000;
+}
+
+#ajudah3{
+  animation-duration: 2s;
+  animation-name: fadein;
+  font-size: 35px;
+  color: red;
+  text-align: left;
+  text-shadow: #000 10px 10px 10px;
+}
+
+#ajudap{
+  font-size: 33px;
+  color: black;
+  font-size: 30px;
+}
+
+.linksSobre{
+  animation-duration: 1s;
+  animation-name: slidein;
+  font-family: Assassins;
+  color: orangered;
+  font-size: 35px;
+  text-shadow: -0.06em 0 0 #000, 0.06em 0 0 #000;
+}
+
+#jogoh1{
+  animation-duration: 1s;
+  animation-name: slidein;
+  font-family: Assassins;
+  color: orangered;
+  font-size: 75px;
+  text-shadow: -0.06em 0 0 #000, 0.06em 0 0 #000;
+}
+
+#jogoh2{
+  animation-duration: 2s;
+  animation-name: slidein;
+  color: orange;
+  font-size: 45px;
+  text-shadow: -0.06em 0 0 #000, 0.06em 0 0 #000;
+}
+
+.temasJogo{
+  animation-duration: 1s;
+  animation-name: slidein;
+  font-family: Assassins;
+  color: orangered;
+  font-size: 40px;
+  text-shadow: -0.06em 0 0 #000, 0.06em 0 0 #000;
+}
+
+#frutash1, #frutash2{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+#inputs02{
+  text-align: center;
+}
+
+#geralh1, #geralh2{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+#historiah1, #historiah2{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+.dicasfrutas{
+  text-align: right;
+  color: black;
+  font-size: 30px;
+}
+
+.dicasgeral{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+.dicashistoria{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  overflow: auto;
+  text-align: center;
+}
+
+tr, td{
+  color: black;
+  font-size: 30px;
+  border: 1px dotted black;
+  width: 50px;
+  height: 50px;
+}
+
+tr:nth-child(2n+1){
+  background: #F0FFFF;
+}
+
+tr:nth-child(2n) {
+  background: #FFFFF0;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+@keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
